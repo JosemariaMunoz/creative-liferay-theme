@@ -20,7 +20,8 @@ The steps to move this bootstrap theme in liferay was:
 - Move the scrollspy to main.js and conditioned it by content height in order to avoid the initial blank page
 - Use only the font awesome files needed to make it work
 
-To use the theme in a Liferay portal 7.1 / 7.2 please:
+
+__To use the theme in a Liferay portal 7.1 / 7.2 please:__
 
 - Clone the repo by `git clone https://github.com/marcoscv-work/creative-liferay-theme.git`
 - Install dependencies `npm i`

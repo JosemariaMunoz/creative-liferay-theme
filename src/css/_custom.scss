@@ -21,30 +21,5 @@
     @import "vendor/creative/bootstrap-overrides";
 }
 
-// Liferay fixes:
-
-body {
-    @include sans-serif-font;
-}
-
-#wrapper {
-    @include serif-font;
-}
-
-#mainNav {
-    padding: .5rem 1rem;
-
-    @at-root {
-        .has-control-menu & {
-            margin-top: 48px;
-
-            @include media-breakpoint-up(md) {
-                margin-top: 56px;
-            }
-        }
-    }
-
-    &.fixed-top {
-        z-index: 990;
-    }
-}
+// some fixed to adapt the theme to lifeary portal
+@import "liferay_fixes";

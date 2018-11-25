@@ -1,0 +1,25 @@
+body {
+    @include sans-serif-font;
+}
+
+#wrapper {
+    @include serif-font;
+}
+
+#mainNav {
+    padding: .5rem 1rem;
+
+    @at-root {
+        .has-control-menu & {
+            margin-top: 48px;
+
+            @include media-breakpoint-up(md) {
+                margin-top: 56px;
+            }
+        }
+    }
+
+    &.fixed-top {
+        z-index: 990;
+    }
+}
