@@ -15,3 +15,4 @@ The steps to move this bootstrap theme in liferay was:
 - Create temporal content with the theme markup until create a site template
 - Add styles to avoid the main nav overlapping when you are a Liferay administrator and can see the control menu
 - Move the scrollspy to main.js and conditioned it by content height in order to avoid the initial blank page
+- Use only the font awesome files needed to make it work
