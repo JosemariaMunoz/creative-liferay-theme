@@ -9,6 +9,7 @@ The steps to move this bootstrap theme in liferay was:
 - Copy the creative SCSS files to the `/css/vendor/crative-css-files` directory
 - Load the SCSS individually from `_custom.scss`
 - Locate the general components and wrape them inside the ID #main
+- Load google fonts by URL from `portal_normal.ftl`
 - Copy the plugin files to JS and CSS directories `/vendor/*`
 - Perform the loading of the JS individually from portal_normal.ftl
 - Adapt new markup for navigation.ftl with the theme navbar
