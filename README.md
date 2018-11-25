@@ -2,6 +2,8 @@
 
 Creative liferay theme is a Liferay 7.1 / 7.2 theme based in the great bootstrap theme called [Creative](https://github.com/BlackrockDigital/startbootstrap-creative) created by [Start Bootstrap](http://startbootstrap.com/). under the MIT license.
 
+__The theme is under construction, and in 'demo mode', soon I will migrathe the contents to a site template inicializer__
+
 The steps to move this bootstrap theme in liferay was:
 
 - Copy the creative SCSS files to the `/css/vendor/crative-css-files` directory
