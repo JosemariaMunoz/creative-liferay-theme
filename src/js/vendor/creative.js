@@ -24,7 +24,7 @@
   /* $('body').scrollspy({
     target: '#mainNav',
     offset: 57
-  }); */
+  });
 
   // Collapse Navbar
   var navbarCollapse = function() {
@@ -38,6 +38,7 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+  */
 
   // Scroll reveal calls
   window.sr = ScrollReveal();
