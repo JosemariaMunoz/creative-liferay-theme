@@ -38,7 +38,9 @@
 		</#if>
 
 		<#if selectable>
-			<@liferay_util["include"] page=content_include />
+			<div class="container-fluid">
+				<@liferay_util["include"] page=content_include />
+			</div>
 		<#else>
 			${portletDisplay.recycle()}
 
