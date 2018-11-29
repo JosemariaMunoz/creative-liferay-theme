@@ -36,6 +36,12 @@
 						<a aria-labelledby="layout_${nav_item.getLayoutId()}" class="nav-link js-scroll-trigger" href="${nav_item.getURL()}" ${nav_item.getTarget()} role="menuitem"><span><@liferay_theme["layout-icon"] layout=nav_item_layout /> ${nav_item.getName()}</span></a>
 					</li>
 				</#list>
+
+				<#if !is_signed_in>
+					<li class="nav-item" role="presentation">
+						<a class="nav-link" data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
+					</li>
+				</#if>
 			</ul>
 		</div>
 	</div>
