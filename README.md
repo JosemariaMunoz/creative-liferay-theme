@@ -1,5 +1,7 @@
 # creative-liferay-theme
 
+![creative thumbnail](https://raw.githubusercontent.com/marcoscv-work/creative-liferay-theme/master/src/images/thumbnail.png)
+
 Creative liferay theme is a Liferay 7.1 / 7.2 theme based in the great bootstrap theme called [Creative](https://github.com/BlackrockDigital/startbootstrap-creative) created by [Start Bootstrap](http://startbootstrap.com/). under the MIT license.
 
 __The theme is under construction and in 'demo mode', soon I will migrate the contents to a site template inicializer__
